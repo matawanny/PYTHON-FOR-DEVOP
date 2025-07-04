@@ -4,7 +4,7 @@ install:
 		pip install -r requirements.txt
 
 post-install:
-	# python -m textblob.download_corpora
+	python -m textblob.download_corpora
 	python post-install.py
 
 format:
